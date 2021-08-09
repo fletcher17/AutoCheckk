@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Autocheck</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_name">Nike AirMax</string>
+    <string name="body_type">Body Type</string>
+    <string name="model_type">Air Jordan 1 Mid</string>
+    <string name="state">NIKE</string>
+    <string name="model_id">Model id: %1$d</string>
+    <string name="price">Price</string>
+    <string name="price_in_figure">$ %1$d</string>
+    <string name="old_price">Old Price:$  %1$d</string>
+    <string name="new_price">New Price:$ %1$d</string>
+    <string name="total_mileage">total Mileage: %1$d</string>
+    <string name="title">Lexus</string>
+</resources>

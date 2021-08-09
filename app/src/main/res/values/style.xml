@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout">
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.LowerCardViewLayout">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.BackGroundTextView">
+        <item name="android:text">""</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">150dp</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.ModelTextView">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">Air Jordan 1 Mid</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.StarRatingImageView">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:src">@drawable/ic_baseline_star_24</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.CarRatingView">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">(5.0)</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.StateTextView">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">NIKE</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.PriceTextView">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:text">$115.00</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.FloatActionButton">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:src">@drawable/ic_baseline_add_24</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.TopCardView">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_alignTop">@+id/lower_image_card_view</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">-75dp</item>
+        <item name="android:backgroundTint">#ECEFF1</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.FavoriteImageView">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@drawable/favorite_background</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:src">@drawable/ic_baseline_favorite_24</item>
+    </style>
+
+    <style name="CarImagesRelativeLayout.CarImageView">
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:src">@mipmap/ic_launcher</item>
+    </style>
+</resources>
